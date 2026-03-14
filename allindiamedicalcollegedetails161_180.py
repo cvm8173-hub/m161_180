@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-    "https://www.shiksha.com/college/gandhi-medical-college-bhopal-62865",
-    "https://www.shiksha.com/college/n-c-medical-college-and-hospital-panipat-69873",
-    "https://www.shiksha.com/university/malla-reddy-vishwavidyapeeth-hyderabad-237682",
-    "https://www.shiksha.com/college/yenepoya-university-bengaluru-campus-kannur-bangalore-212365",
-    "https://www.shiksha.com/college/k-d-medical-college-hospital-and-research-centre-mathura-69989",
-    "https://www.shiksha.com/university/abhilashi-university-mandi-56079",
-    "https://www.shiksha.com/college/mgm-medical-college-and-hospital-aurangabad-57641",
-    "https://www.shiksha.com/college/mahatma-gandhi-institute-of-medical-sciences-wardha-63039",
-    "https://www.shiksha.com/college/patna-medical-college-and-hospital-63075",
-    "https://www.shiksha.com/college/smt-kishoritai-bhoyar-college-of-pharmacy-nagpur-64311",
-    "https://www.shiksha.com/college/esic-medical-college-hyderabad-62853",
-    "https://www.shiksha.com/university/bundelkhand-university-jhansi-uttar-pradesh-other-25207",
-    "https://www.shiksha.com/college/psg-college-of-pharmacy-coimbatore-65095",
-    "https://www.shiksha.com/university/amity-university-lucknow-38047",
-    "https://www.shiksha.com/university/uttar-pradesh-university-of-medical-sciences-uttar-pradesh-other-57649",
-    "https://www.shiksha.com/university/sandip-university-nashik-48961",
-    "https://www.shiksha.com/college/sigma-university-vadodara-60225",
-    "https://www.shiksha.com/college/stanley-medical-college-george-town-chennai-63161",
-    "https://www.shiksha.com/university/assam-university-silchar-25147",
-    "https://www.shiksha.com/university/glocal-university-saharanpur-37061",
+  "https://www.shiksha.com/college/gonna-institute-of-technology-and-management-visakhapatnam-188409",
+  "https://www.shiksha.com/college/set-s-institute-of-information-technology-dhule-189535",
+  "https://www.shiksha.com/college/maharashtra-institute-of-information-technology-beed-189987",
+  "https://www.shiksha.com/college/vathsalya-institute-of-science-and-technology-nalgonda-194069",
+  "https://www.shiksha.com/college/medhavi-institute-of-management-jabalpur-210167",
+  "https://www.shiksha.com/college/ilam-zee-himgiri-universty-dehradun-213135",
+  "https://www.shiksha.com/college/rajan-mamta-degree-college-aurangabad-bihar-other-242396",
+  "https://www.shiksha.com/college/universal-institute-of-hotel-management-uihm-dehradun-242702",
+  "https://www.shiksha.com/university/dr-k-n-modi-university-modinagar-244128",
+  "https://www.shiksha.com/college/inderprastha-engineering-college-ghaziabad-24096",
+  "https://www.shiksha.com/college/srishti-school-of-business-banashankari-bangalore-30000",
+  "https://www.shiksha.com/college/national-institute-of-technical-teacher-s-training-and-research-bhopal-61319",
+  "https://www.shiksha.com/college/sree-rama-institute-of-technology-and-science-khammam-61351",
+  "https://www.shiksha.com/college/immanuel-arasar-j-j-college-of-engineering-kanyakumari-61715",
+  "https://www.shiksha.com/college/duvvuru-ramanamma-women-s-drw-college-nellore-62355",
+  "https://www.shiksha.com/college/all-saints-pg-college-visakhapatnam-62457",
+  "https://www.shiksha.com/college/sumourya-institute-of-management-kurnool-62541",
+  "https://www.shiksha.com/college/k-s-jain-institute-of-engineering-and-technology-modinagar-65231",
+  "https://www.shiksha.com/college/swami-vivekanad-technical-college-ludhiana-67325",
+  "https://www.shiksha.com/college/surabhi-college-of-engineering-and-technology-bhopal-67675",
 ]
 
 
@@ -9241,7 +9241,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count =161
+    c_count =2731
 
     try:
         for base_url in BASE_URL:
