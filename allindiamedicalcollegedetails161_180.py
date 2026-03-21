@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/gonna-institute-of-technology-and-management-visakhapatnam-188409",
-  "https://www.shiksha.com/college/set-s-institute-of-information-technology-dhule-189535",
-  "https://www.shiksha.com/college/maharashtra-institute-of-information-technology-beed-189987",
-  "https://www.shiksha.com/college/vathsalya-institute-of-science-and-technology-nalgonda-194069",
-  "https://www.shiksha.com/college/medhavi-institute-of-management-jabalpur-210167",
-  "https://www.shiksha.com/college/ilam-zee-himgiri-universty-dehradun-213135",
-  "https://www.shiksha.com/college/rajan-mamta-degree-college-aurangabad-bihar-other-242396",
-  "https://www.shiksha.com/college/universal-institute-of-hotel-management-uihm-dehradun-242702",
-  "https://www.shiksha.com/university/dr-k-n-modi-university-modinagar-244128",
-  "https://www.shiksha.com/college/inderprastha-engineering-college-ghaziabad-24096",
-  "https://www.shiksha.com/college/srishti-school-of-business-banashankari-bangalore-30000",
-  "https://www.shiksha.com/college/national-institute-of-technical-teacher-s-training-and-research-bhopal-61319",
-  "https://www.shiksha.com/college/sree-rama-institute-of-technology-and-science-khammam-61351",
-  "https://www.shiksha.com/college/immanuel-arasar-j-j-college-of-engineering-kanyakumari-61715",
-  "https://www.shiksha.com/college/duvvuru-ramanamma-women-s-drw-college-nellore-62355",
-  "https://www.shiksha.com/college/all-saints-pg-college-visakhapatnam-62457",
-  "https://www.shiksha.com/college/sumourya-institute-of-management-kurnool-62541",
-  "https://www.shiksha.com/college/k-s-jain-institute-of-engineering-and-technology-modinagar-65231",
-  "https://www.shiksha.com/college/swami-vivekanad-technical-college-ludhiana-67325",
-  "https://www.shiksha.com/college/surabhi-college-of-engineering-and-technology-bhopal-67675",
+  "https://www.shiksha.com/college/sv-group-of-institute-moinabad-hyderabad-25199",
+  "https://www.shiksha.com/college/lyallpur-khalsa-college-of-engineering-jalandhar-48249",
+  "https://www.shiksha.com/college/lta-school-of-beauty-vashi-navi-mumbai-48985",
+  "https://www.shiksha.com/college/kamalnayan-bajaj-nursing-college-aurangabad-149915",
+  "https://www.shiksha.com/provider/skillsir-180817",
+  "https://www.shiksha.com/college/major-s-d-singh-college-of-pharmacy-uttar-pradesh-other-181293",
+  "https://www.shiksha.com/college/sarvodaya-college-of-pharmacy-azamgarh-181633",
+  "https://www.shiksha.com/college/shivshankar-singh-mahavidyalaya-pharmacy-ghazipur-181795",
+  "https://www.shiksha.com/college/sai-college-of-pharmacy-uttar-pradesh-other-181933",
+  "https://www.shiksha.com/college/prem-raghu-ayurvedic-medical-college-and-hospital-hathras-184587",
+  "https://www.shiksha.com/college/government-medical-college-jagdalpur-187579",
+  "https://www.shiksha.com/college/government-college-narnaund-hisar-195227",
+  "https://www.shiksha.com/college/n-r-institute-of-physiotherapy-ahmedabad-197125",
+  "https://www.shiksha.com/college/south-gujarat-institute-of-medical-science-navsari-197143",
+  "https://www.shiksha.com/college/om-sai-institute-of-paramedical-sciences-mayurbhanj-200755",
+  "https://www.shiksha.com/college/shree-swaminarayan-naimisharanya-college-of-science-bhavnagar-202339",
+  "https://www.shiksha.com/college/banshidhar-college-of-pharmacy-garhwa-207581",
+  "https://www.shiksha.com/college/akshara-institute-of-pharmacy-karnataka-other-207667",
+  "https://www.shiksha.com/college/madan-singh-college-of-pharmacy-sawaimadhopur-236892",
+  "https://www.shiksha.com/college/meitra-hospital-kozhikode-240836",
 ]
 
 
@@ -9241,7 +9241,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count =2731
+    c_count =3601
 
     try:
         for base_url in BASE_URL:
