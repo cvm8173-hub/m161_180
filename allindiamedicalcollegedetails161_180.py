@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/sv-group-of-institute-moinabad-hyderabad-25199",
-  "https://www.shiksha.com/college/lyallpur-khalsa-college-of-engineering-jalandhar-48249",
-  "https://www.shiksha.com/college/lta-school-of-beauty-vashi-navi-mumbai-48985",
-  "https://www.shiksha.com/college/kamalnayan-bajaj-nursing-college-aurangabad-149915",
-  "https://www.shiksha.com/provider/skillsir-180817",
-  "https://www.shiksha.com/college/major-s-d-singh-college-of-pharmacy-uttar-pradesh-other-181293",
-  "https://www.shiksha.com/college/sarvodaya-college-of-pharmacy-azamgarh-181633",
-  "https://www.shiksha.com/college/shivshankar-singh-mahavidyalaya-pharmacy-ghazipur-181795",
-  "https://www.shiksha.com/college/sai-college-of-pharmacy-uttar-pradesh-other-181933",
-  "https://www.shiksha.com/college/prem-raghu-ayurvedic-medical-college-and-hospital-hathras-184587",
-  "https://www.shiksha.com/college/government-medical-college-jagdalpur-187579",
-  "https://www.shiksha.com/college/government-college-narnaund-hisar-195227",
-  "https://www.shiksha.com/college/n-r-institute-of-physiotherapy-ahmedabad-197125",
-  "https://www.shiksha.com/college/south-gujarat-institute-of-medical-science-navsari-197143",
-  "https://www.shiksha.com/college/om-sai-institute-of-paramedical-sciences-mayurbhanj-200755",
-  "https://www.shiksha.com/college/shree-swaminarayan-naimisharanya-college-of-science-bhavnagar-202339",
-  "https://www.shiksha.com/college/banshidhar-college-of-pharmacy-garhwa-207581",
-  "https://www.shiksha.com/college/akshara-institute-of-pharmacy-karnataka-other-207667",
-  "https://www.shiksha.com/college/madan-singh-college-of-pharmacy-sawaimadhopur-236892",
-  "https://www.shiksha.com/college/meitra-hospital-kozhikode-240836",
+  "https://www.shiksha.com/college/m-t-e-foundation-s-bidar-institute-of-pharmacy-207813",
+  "https://www.shiksha.com/college/nida-college-of-pharmacy-bidar-207829",
+  "https://www.shiksha.com/college/little-flower-group-of-institution-bangalore-207883",
+  "https://www.shiksha.com/college/upasana-college-of-pharmacy-west-bengal-other-237356",
+  "https://www.shiksha.com/college/saideep-healthcare-and-research-pvt-ltd-ahmednagar-240572",
+  "https://www.shiksha.com/college/synergy-superspeciality-hospital-rajkot-240904",
+  "https://www.shiksha.com/college/yatharth-superspeciality-hospitals-greater-noida-241872",
+  "https://www.shiksha.com/college/shri-rawatpura-sarkar-institute-of-medical-sciences-and-research-raipur-245400",
+  "https://www.shiksha.com/college/green-royal-academy-of-pharmaceutical-education-sciences-andhra-pradesh-other-60757",
+  "https://www.shiksha.com/college/saras-college-of-pharmacy-baghpat-65665",
+  "https://www.shiksha.com/college/cheran-college-for-women-tirupur-71193",
+  "https://www.shiksha.com/college/swami-ramananda-tirtha-institute-of-pharmaceutical-sciences-nalgonda-87737",
+  "https://www.shiksha.com/college/suryaben-jashubhai-thakkar-pharmacy-college-rajkot-88101",
+  "https://www.shiksha.com/college/meruling-shikshan-sanstha-s-college-of-pharmacy-satara-89165",
+  "https://www.shiksha.com/college/vidya-sagar-institute-of-polytechnic-and-pharmacy-mansa-97207",
+  "https://www.shiksha.com/college/kalapandian-polytechnic-college-theni-99147",
+  "https://www.shiksha.com/college/mass-polytechnic-college-thanjavur-99419",
+  "https://www.shiksha.com/college/institute-of-pharmacy-raigad-99625",
+  "https://www.shiksha.com/college/ayushi-college-of-pharmacy-meerut-181115",
+  "https://www.shiksha.com/college/tejas-institute-of-pharmacy-uttar-pradesh-other-181751",
 ]
 
 
@@ -9246,7 +9246,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count =3601
+    c_count =3961
 
     try:
         for base_url in BASE_URL:
