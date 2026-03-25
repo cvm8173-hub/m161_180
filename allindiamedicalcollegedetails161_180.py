@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/faculty-of-pharmacy-future-institute-of-medical-sciences-bareilly-65431",
-  "https://www.shiksha.com/college/vathsalya-group-of-institutions-telangana-other-68415",
-  "https://www.shiksha.com/college/radhe-school-of-pharmacy-gujarat-other-88105",
-  "https://www.shiksha.com/college/pravara-medical-trust-college-of-pharmacy-ahmednagar-147549",
-  "https://www.shiksha.com/college/blm-college-of-pharmacy-jhunjhunu-148145",
-  "https://www.shiksha.com/college/vetri-vinayaha-polytechnic-college-tiruchirappalli-148301",
-  "https://www.shiksha.com/college/sai-care-college-of-pharmacy-azamgarh-148649",
-  "https://www.shiksha.com/college/ps-institute-of-pharmacy-kanpur-148667",
-  "https://www.shiksha.com/college/white-feathers-group-of-educational-institutes-barabanki-148681",
-  "https://www.shiksha.com/college/bhagwant-college-of-pharmacy-muzaffarnagar-149029",
-  "https://www.shiksha.com/college/sri-raghavendra-college-of-pharmacy-karnataka-other-156729",
-  "https://www.shiksha.com/college/dev-bhumi-institute-of-paramedical-science-uttar-pradesh-other-181153",
-  "https://www.shiksha.com/college/dilip-kishore-mehrotra-institute-of-pharmacy-uttar-pradesh-other-181159",
-  "https://www.shiksha.com/college/dr-anar-singh-college-of-pharmacy-uttar-pradesh-other-181165",
-  "https://www.shiksha.com/college/girija-devi-college-of-pharmacy-uttar-pradesh-other-181215",
-  "https://www.shiksha.com/college/indira-gandhi-college-of-pharmacy-uttar-pradesh-other-181231",
-  "https://www.shiksha.com/college/j-d-college-of-pharmacy-uttar-pradesh-other-181251",
-  "https://www.shiksha.com/college/lalita-college-of-pharmacy-uttar-pradesh-other-181271",
-  "https://www.shiksha.com/college/doon-pharmacy-institute-saharanpur-182013",
-  "https://www.shiksha.com/college/sggs-college-of-pharmacy-and-research-center-uttar-pradesh-other-182023",
+  "https://www.shiksha.com/college/srajan-institute-of-pharmacy-lakhimpur-149317",
+  "https://www.shiksha.com/college/rajiv-gandhi-institute-of-pharmacy-satna-156597",
+  "https://www.shiksha.com/college/government-medical-college-nagapattinam-180729",
+  "https://www.shiksha.com/college/apollo-hospital-enterprise-limited-chennai-193919",
+  "https://www.shiksha.com/college/esic-paramedical-college-karnataka-other-199793",
+  "https://www.shiksha.com/college/imas-business-school-salt-lake-city-kolkata-224859",
+  "https://www.shiksha.com/college/shri-guru-ram-rai-university-kotdwar-campus-239344",
+  "https://www.shiksha.com/college/smt-veeramma-gangasiri-college-for-women-karnataka-other-69587",
+  "https://www.shiksha.com/college/malwa-college-of-nursing-barnala-87909",
+  "https://www.shiksha.com/college/northern-institute-of-pharmacy-and-research-alwar-88471",
+  "https://www.shiksha.com/college/laddhad-college-of-pharmacy-buldana-88515",
+  "https://www.shiksha.com/college/shree-balaji-college-of-pharmacy-chhindwara-100103",
+  "https://www.shiksha.com/college/rungta-college-of-pharmaceutical-sciences-and-research-bhilai-145885",
+  "https://www.shiksha.com/college/akhil-bharti-college-of-pharmacy-bhopal-147485",
+  "https://www.shiksha.com/college/nandha-college-of-paramedical-sciences-erode-156605",
+  "https://www.shiksha.com/college/dr-mithilesh-mani-tripathi-college-of-pharmacy-uttar-pradesh-other-182037",
+  "https://www.shiksha.com/college/laxmi-memorial-college-of-physiotherapy-karnataka-other-185837",
+  "https://www.shiksha.com/college/sir-h-n-hospital-and-research-college-of-nursing-mumbai-189651",
+  "https://www.shiksha.com/college/jaya-institute-of-medical-lab-technology-b-sc-m-l-t-warangal-194347",
+  "https://www.shiksha.com/college/vishwanath-ayurved-mahavidyalaya-and-hospital-kolkata-200387",
 ]
 
 
@@ -9246,7 +9246,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count =4321
+    c_count =2621
 
     try:
         for base_url in BASE_URL:
